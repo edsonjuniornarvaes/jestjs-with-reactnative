@@ -13,7 +13,6 @@ module.exports = class PersonFactory {
         return new Client();
       case 'admin':
         console.log('Opa');
-      // eslint-disable-next-line no-fallthrough
       default:
         return null;
     }
