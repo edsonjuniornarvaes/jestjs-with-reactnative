@@ -1,0 +1,3 @@
+const areaOfSquare = require('../');
+
+describe('');
