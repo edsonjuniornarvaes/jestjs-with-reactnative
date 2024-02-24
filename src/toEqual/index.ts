@@ -1,10 +1,10 @@
 module.exports = class Person {
-  fullName;
+  fullname;
   email;
-  birthDay;
-  constructor(fullName: string, email: string, birthDay: Date) {
-    this.fullName = fullName;
+  birthday;
+  constructor(fullname: string, email: string, birthday: Date) {
+    this.fullname = fullname;
     this.email = email;
-    this.birthDay = birthDay;
+    this.birthday = birthday;
   }
 };
