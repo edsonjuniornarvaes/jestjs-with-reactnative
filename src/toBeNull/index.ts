@@ -1,4 +1,4 @@
-const {Employee, Client} = require('../toBe/index');
+import {Employee, Client} from "../class/index";
 
 module.exports = class PersonFactory {
   getPerson(type: string | null) {
@@ -7,12 +7,10 @@ module.exports = class PersonFactory {
     }
 
     switch (type?.toLowerCase()) {
-      case 'employee':
+      case "employee":
         return new Employee();
-      case 'client':
+      case "client":
         return new Client();
-      case 'admin':
-        console.log('Opa');
       default:
         return null;
     }

@@ -1,6 +1,6 @@
-const PersonFactory = require('../index');
+const PersonFactory2 = require('../index');
 
-const factory = new PersonFactory();
+const factory = new PersonFactory2();
 
 describe('Factory of Person', () => {
   test('not passing the parameter should return null', () => {
